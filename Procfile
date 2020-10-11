@@ -1,1 +1,1 @@
-web: gunicorn TodoApo.wsgi
+web: gunicorn TodoApo.wsgi --log-file -
